@@ -1,2 +1,3 @@
 # Main-Folder
-Uhhhhhhhhhhhhhhhh no
+Welkomer, it is I, Coppery
+this is stuff and uhhhh C
