@@ -1,1 +1,1 @@
-Hi this is my python stuf
+Hi this is my shitty python stuf
