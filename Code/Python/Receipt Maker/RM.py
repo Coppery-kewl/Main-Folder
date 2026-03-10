@@ -1,5 +1,5 @@
-# Receipt maker 1.1
-version='1.1'
+# Receipt maker 1.4
+version='1.4'
 
 print(f"""Hello, welcome to receipt maker {version}
       to make your receipt, answer these questions.
@@ -14,11 +14,11 @@ thanknote=input("Write a thanks note like 'Thank you for shopping at our establi
 
 print(fr"""-----------------------------RECEIPT-----------------------------
       -------------------
-      !`````:::::::`````! Issued by: {company}
+      !`````:::::::`````! Issued by: {company.capitalize()}
       !````//```````````! No. {id}
-      !```//````````````! Name: {name}
-      !``||`````````````! Service/Order: {item}
+      !```//````````````! Name: {name.capitalize()}
+      !``||`````````````! Service/Order: {item.capitalize()}
       !```\\````````````! Price: {price}
       !````\\```````````! Date: {date}
-      !`````:::::::`````! {thanknote}
+      !`````:::::::`````! {thanknote.capitalize()}
       -------------------""")
